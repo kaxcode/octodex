@@ -1,8 +1,59 @@
-html {
-  text-size-adjust: 100%;
+/* navigation styling */
+.header {
+  padding: 15px 20px;
 }
 
-body {
-  margin: 0;
-  font: 16px / 1 sans-serif;
+.header ul.top-nav {
+  position: relative;
+  float: right;
+  margin-right: 9px;
+}
+
+.header ul.top-nav li {
+  position: relative;
+  float: left;
+  list-style: none;
+}
+
+.header ul.top-nav a {
+  margin-left: 15px;
+  display: flex;
+  line-height: 25px;
+  color: #000;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.site-logo {
+  display: flex;
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+/* Content Styling */
+
+ul li .picture {
+
+}
+
+li .picture {
+  border-radius: 3px;
+  display: flex;
+  border: solid #cacaca;
+  background: #fff;
+  text-align: center;
+  overflow: hidden;
+  border-width: 1px;
+  flex-wrap: wrap;
+}
+
+div.content img {
+  margin: 10px;
+  width: 424px;
+  height: 424px;
+  max-width: 424px;
+  max-height: 424px;
 }
