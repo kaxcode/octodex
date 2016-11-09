@@ -1,5 +1,5 @@
 /* navigation styling */
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,7 +7,7 @@ nav{
   font-weight: bold;
   padding: 0 0.5em;
   background-color: #f3f3f3;
-  border-radius: 10
+  border-radius: 10px;
 }
 
 nav ul {
@@ -17,19 +17,22 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color:#000;
+  color: #000;
   font-weight: bold;
-  font-size:13px;
+  font-size: 16px;
   padding: 0 15px;
 }
 
 /* Content Styling */
 section.flex {
   display: flex;
+  justify-content: center;
 }
+
 section.flex ul.picture-holder {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: wrap;
+  justify-content: center;
   margin: 0 auto;
   padding: 0;
 }
