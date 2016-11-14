@@ -29,7 +29,7 @@ ul.top-nav li a {
   font-weight: bold;
   font-family: Helvetica;
   font-size: 0.8125em;
-  padding: 0 15px;
+  padding: 0 10px;
 }
 
 /* Content Styling */
@@ -37,25 +37,27 @@ section.flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 0.6em;
 }
 
 div.octo-holder {
   display: flex;
   flex-flow: wrap;
-  justify-content: center;
-  margin-top: 0.6em;
   padding: 0;
   border-radius: 3px;
   border: solid #cacaca;
   background: #fff;
-  text-align: center;
   overflow: hidden;
   border-width: 1px;
   line-height: 0;
+  width: 444px;
+  height: 444px;
+  max-width: 444px;
+  max-height: 444px;
 }
 
 figure.pic {
-  margin: 0.7em;
+  margin: 0.8em;
 }
 
 div.octo-holder img {
@@ -63,6 +65,7 @@ div.octo-holder img {
   height: 424px;
   max-width: 424px;
   max-height: 424px;
+  margin: 9px 9px 0;
 }
 
 /* Picture footer */
